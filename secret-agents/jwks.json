@@ -2,11 +2,11 @@
   "keys": [
     {
       "kty": "EC",
-      "x": "AKULRDspxmMiyXqOC2oaOoPyLB9XFsxKhSbPKi4cHnVPmz38hBS5CDfzky2Lxns96kOcGcoUz7MH4aw9oEABV7jA",
-      "y": "Aab5awlG_EBHB_kHE_o9HFE5pD4E5-biWMh0hJd5QcIXHAiRmLHCzzCL9M3lgHfGBZZ-kbAch6rBIh1ag7iLLvW5",
+      "x": "AKZsSzCUDTilBBTFgzojhPCgjZ1zn4Pi10i7cwfmL_uv2JOxZdNcc7A97BZlfSzWkvwt-hmpgbRFvCdp94FkLFYY",
+      "y": "AXtmhy9DNR-OK1zjQZ5xi2iQpxex3mnu5lkP-FUsM7fFGEiDZkz8p3Reve1rO8PwaWwug7lY5qwPGuI3ddJITMl4",
       "crv": "P-521",
       "alg": "ES512",
-      "kid": "8de3501a-dd25-4107-9fcf-ca542b933a12"
+      "kid": "d2d1444c-a7a6-4de2-8b34-d91b4dba2e97"
     }
   ]
 }
