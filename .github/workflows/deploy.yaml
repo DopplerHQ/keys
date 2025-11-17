@@ -12,10 +12,10 @@ jobs:
     steps:
       - id: define_environment
         run: |
-          if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" = "refs/heads/main" ]; then
+          if [[ "${{ github.event_name }}" == 'push'  ||  "${{ github.event_name }}" == 'workflow_dispatch' ]] && [[ "${{ github.ref }}" = "refs/heads/main" ]]; then
             echo "push-production"
             echo "env_name=production" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" = "refs/heads/staging" ]; then
+          elif [[ "${{ github.event_name }}" == 'push'  ||  "${{ github.event_name }}" == 'workflow_dispatch' ]] && [[ "${{ github.ref }}" = "refs/heads/staging" ]]; then
             echo "push-staging"
             echo "env_name=staging" >> $GITHUB_OUTPUT
           else
